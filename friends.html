@@ -4,14 +4,34 @@
         <title>Friends</title>
         <link rel="stylesheet" href="./style.css">
         <style type="text/css">
+        	.container {
+        		display: flex;
+        		flex-wrap: wrap;
+        	}
 
+        	.container > div {
+        		background-color: grey;
+        		font-size: 20px;
+        		margin: 20px;
+        		padding: 20px;
+        		width: 200px;
+        	}
+        	.container img {
+        		display: block;
+        		margin-left: auto;
+        		margin-right: auto;
+        	}
+        	.container div p {
+        		display: block;
+        		margin-bottom: 0px;
+        	}
         </style>
     </head>
     <body>
-    	<div>
+    	<div class="header">
     		<h1>Friends</h1>
     	</div>
-        <div>
+        <div class="nav">
             <h2>Menu</h2>
             <ul>
                 <li><a href="./index.html">Him</a></li>
@@ -19,6 +39,122 @@
                 <li><a href="./interests.html">Interests</a></li>
                 <li><a href="./comments.html">Comments</a></li>
             </ul>
+        </div>
+        <div class="section">
+            <div>
+            	<h2>See all friends:</h2>
+				<input list="friends-list" name="friends-list" placeholder="Choose a name" />
+				<datalist id="friends-list">
+				    <option value="Friend Number 1">
+				    <option value="Friend Number 2">
+				    <option value="Friend Number 3">
+				    <option value="Friend Number 4">
+				    <option value="Friend Number 5">
+				    <option value="Friend Number 6">
+				    <option value="Friend Number 7">
+				    <option value="Friend Number 8">
+				    <option value="Friend Number 9">
+				    <option value="Friend Number 10">
+				    <option value="Friend Number 11">
+				    <option value="Friend Number 12">
+				    <option value="Friend Number 13">
+				    <option value="Friend Number 14">
+				    <option value="Friend Number 15">
+				    <option value="Friend Number 16">
+				    <option value="Friend Number 17">
+				    <option value="Friend Number 18">
+				    <option value="Friend Number 19">
+				    <option value="Friend Number 20">
+				</datalist>
+            </div>
+            <div>
+            	<h2>Friends of Sylvain</h2>
+            	<div class="container">
+            		<div>
+            			<img src="./Image/friend1.jpg" width="90%">
+            			<p>Friend Number 1</p>
+            		</div>
+            		<div>
+            			<img src="./Image/friend2.jpg" width="90%">
+            			<p>Friend Number 2</p>
+            		</div>
+            		<div>
+            			<img src="./Image/friend3.jpg" width="90%">
+            			<p>Friend Number 3</p>
+            		</div>
+            		<div>
+            			<img src="./Image/friend4.jpg" width="90%">
+            			<p>Friend Number 4</p>
+            		</div>
+            		<div>
+            			<img src="./Image/friend5.jpg" width="90%">
+            			<p>Friend Number 5</p>
+            		</div>
+            		<div>
+            			<img src="./Image/friend6.jpg" width="90%">
+            			<p>Friend Number 6</p>
+            		</div>
+            		<div>
+            			<img src="./Image/friend7.jpg" width="90%">
+            			<p>Friend Number 7</p>
+            		</div>
+            		<div>
+            			<img src="./Image/friend8.jpg" width="90%">
+            			<p>Friend Number 8</p>
+            		</div>
+            		<div>
+            			<img src="./Image/friend9.jpg" width="90%">
+            			<p>Friend Number 9</p>
+            		</div>
+            		<div>
+            			<img src="./Image/friend10.jpg" width="90%">
+            			<p>Friend Number 10</p>
+            		</div>
+            		<div>
+            			<img src="./Image/friend11.jpg" width="90%">
+            			<p>Friend Number 11</p>
+            		</div>
+            		<div>
+            			<img src="./Image/friend12.jpg" width="90%">
+            			<p>Friend Number 12</p>
+            		</div>
+            		<div>
+            			<img src="./Image/friend13.jpg" width="90%">
+            			<p>Friend Number 13</p>
+            		</div>
+            		<div>
+            			<img src="./Image/friend14.jpg" width="90%">
+            			<p>Friend Number 14</p>
+            		</div>
+            		<div>
+            			<img src="./Image/friend15.jpg" width="90%">
+            			<p>Friend Number 15</p>
+            		</div>
+            		<div>
+            			<img src="./Image/friend16.jpg" width="90%">
+            			<p>Friend Number 16</p>
+            		</div>
+            		<div>
+            			<img src="./Image/friend17.jpg" width="90%">
+            			<p>Friend Number 17</p>
+            		</div>
+            		<div>
+            			<img src="./Image/friend18.jpg" width="90%">
+            			<p>Friend Number 18</p>
+            		</div>
+            		<div>
+            			<img src="./Image/friend19.jpg" width="90%">
+            			<p>Friend Number 19</p>
+            		</div>
+            		<div>
+            			<img src="./Image/friend20.jpg" width="90%">
+            			<p>Friend Number 20</p>
+            		</div>
+            	</div>
+            </div>
+        </div>
+        <div class="footer">
+            
         </div>
     </body>
 </html>
