@@ -1,16 +1,15 @@
 .header {
         #banner {
-                text-align: center;
                 background-image: url('./Image/cover.jpg');
                 background-size: cover;
                 background-position: center;
-                padding: 150px 0;
-                color: white;
                 background-repeat: no-repeat;
                 background-attachment: fixed;
-                -o-background-size: cover;
-                -moz-background-size: cover;
-                -webkit-background-size: cover;
+                background-width: 100% auto;
+                background-color: #F4F4F2;
+                padding: 150px 0;
+                color: white;
+                text-align: center;
                 
                 div {
                         img {
