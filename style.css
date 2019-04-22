@@ -45,6 +45,8 @@
 
 .card-body a {
   margin: 10px; }
+.card-body div h3 {
+  text-align: left; }
 .card-body .card-title {
   padding: 5px;
   margin-top: 20px;
