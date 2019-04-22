@@ -3,27 +3,28 @@
     <head>
         <title>Friends</title>
         <link rel="stylesheet" href="./style.css">
+        <meta charset="utf-8" name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
         <style type="text/css">
-        	.container {
-        		display: flex;
-        		flex-wrap: wrap;
+        	.row {
+        		background-color: grey;
+        		margin-left: 10px;
+        		margin-right: 10px;
+
         	}
 
-        	.container > div {
-        		background-color: grey;
+        	.col-lg-3, .col-sm-6 {
         		font-size: 20px;
-        		margin: 20px;
-        		padding: 20px;
-        		width: 200px;
+        		text-align: center;
+        		padding: 5px;
         	}
-        	.container img {
-        		display: block;
-        		margin-left: auto;
-        		margin-right: auto;
+        	.col-lg-3 > div, .col-sm-6 > div {
+        		margin: 10px;
+        		padding-top: 20px;
+        		background-color: white;
         	}
-        	.container div p {
-        		display: block;
-        		margin-bottom: 0px;
+        	h2 {
+        		padding-bottom: 10px;
         	}
         </style>
     </head>
@@ -68,87 +69,130 @@
 				</datalist>
             </div>
             <div>
+            	<button>Submit</button>
+            </div>
+            <div>
             	<h2>Friends of Sylvain</h2>
-            	<div class="container">
-            		<div>
-            			<img src="./Image/friend1.jpg" width="90%">
-            			<p>Friend Number 1</p>
+            	<div class="row">
+            		<div class="col-lg-3 col-sm-6">
+            			<div>
+            				<img src="./Image/friend1.jpg" width="90%">
+            				<p>Friend Number 1</p>
+            			</div>
             		</div>
-            		<div>
-            			<img src="./Image/friend2.jpg" width="90%">
-            			<p>Friend Number 2</p>
+            		<div class="col-lg-3 col-sm-6">
+            			<div>
+            				<img src="./Image/friend2.jpg" width="90%">
+            				<p>Friend Number 2</p>
+            			</div>
             		</div>
-            		<div>
-            			<img src="./Image/friend3.jpg" width="90%">
-            			<p>Friend Number 3</p>
+            		<div class="col-lg-3 col-sm-6">
+            			<div>
+            				<img src="./Image/friend3.jpg" width="90%">
+            				<p>Friend Number 3</p>
+            			</div>
             		</div>
-            		<div>
-            			<img src="./Image/friend4.jpg" width="90%">
-            			<p>Friend Number 4</p>
+            		<div class="col-lg-3 col-sm-6">
+            			<div>
+            				<img src="./Image/friend4.jpg" width="90%">
+            				<p>Friend Number 4</p>
+            			</div>
             		</div>
-            		<div>
-            			<img src="./Image/friend5.jpg" width="90%">
-            			<p>Friend Number 5</p>
+            		<div class="col-lg-3 col-sm-6">
+            			<div>
+            				<img src="./Image/friend5.jpg" width="90%">
+            				<p>Friend Number 5</p>
+            			</div>
             		</div>
-            		<div>
-            			<img src="./Image/friend6.jpg" width="90%">
-            			<p>Friend Number 6</p>
+            		<div class="col-lg-3 col-sm-6">
+            			<div>
+            				<img src="./Image/friend6.jpg" width="90%">
+            				<p>Friend Number 6</p>
+            			</div>
             		</div>
-            		<div>
-            			<img src="./Image/friend7.jpg" width="90%">
-            			<p>Friend Number 7</p>
+            		<div class="col-lg-3 col-sm-6">
+            			<div>
+            				<img src="./Image/friend7.jpg" width="90%">
+            				<p>Friend Number 7</p>
+            			</div>
             		</div>
-            		<div>
-            			<img src="./Image/friend8.jpg" width="90%">
-            			<p>Friend Number 8</p>
+            		<div class="col-lg-3 col-sm-6">
+            			<div>
+            				<img src="./Image/friend8.jpg" width="90%">
+            				<p>Friend Number 8</p>
+            			</div>
             		</div>
-            		<div>
-            			<img src="./Image/friend9.jpg" width="90%">
-            			<p>Friend Number 9</p>
+            		<div class="col-lg-3 col-sm-6">
+            			<div>
+            				<img src="./Image/friend9.jpg" width="90%">
+            				<p>Friend Number 9</p>
+            			</div>
             		</div>
-            		<div>
-            			<img src="./Image/friend10.jpg" width="90%">
-            			<p>Friend Number 10</p>
+            		<div class="col-lg-3 col-sm-6">
+            			<div>
+            				<img src="./Image/friend10.jpg" width="90%">
+            				<p>Friend Number 10</p>
+            			</div>
             		</div>
-            		<div>
-            			<img src="./Image/friend11.jpg" width="90%">
-            			<p>Friend Number 11</p>
+            		<div class="col-lg-3 col-sm-6">
+            			<div>
+            				<img src="./Image/friend11.jpg" width="90%">
+            				<p>Friend Number 11</p>
+            			</div>
             		</div>
-            		<div>
-            			<img src="./Image/friend12.jpg" width="90%">
-            			<p>Friend Number 12</p>
+            		<div class="col-lg-3 col-sm-6">
+            			<div>
+            				<img src="./Image/friend12.jpg" width="90%">
+            				<p>Friend Number 12</p>
+            			</div>
             		</div>
-            		<div>
-            			<img src="./Image/friend13.jpg" width="90%">
-            			<p>Friend Number 13</p>
+            		<div class="col-lg-3 col-sm-6">
+            			<div>
+            				<img src="./Image/friend13.jpg" width="90%">
+            				<p>Friend Number 13</p>
+            			</div>
             		</div>
-            		<div>
-            			<img src="./Image/friend14.jpg" width="90%">
-            			<p>Friend Number 14</p>
+            		<div class="col-lg-3 col-sm-6">
+            			<div>
+            				<img src="./Image/friend14.jpg" width="90%">
+            				<p>Friend Number 14</p>
+            			</div>
             		</div>
-            		<div>
-            			<img src="./Image/friend15.jpg" width="90%">
-            			<p>Friend Number 15</p>
+            		<div class="col-lg-3 col-sm-6">
+            			<div>
+            				<img src="./Image/friend15.jpg" width="90%">
+            				<p>Friend Number 15</p>
+            			</div>
             		</div>
-            		<div>
-            			<img src="./Image/friend16.jpg" width="90%">
-            			<p>Friend Number 16</p>
+            		<div class="col-lg-3 col-sm-6">
+            			<div>
+            				<img src="./Image/friend16.jpg" width="90%">
+            				<p>Friend Number 16</p>
+            			</div>
             		</div>
-            		<div>
-            			<img src="./Image/friend17.jpg" width="90%">
-            			<p>Friend Number 17</p>
+            		<div class="col-lg-3 col-sm-6">
+            			<div>
+            				<img src="./Image/friend17.jpg" width="90%">
+            				<p>Friend Number 17</p>
+            			</div>
             		</div>
-            		<div>
-            			<img src="./Image/friend18.jpg" width="90%">
-            			<p>Friend Number 18</p>
+            		<div class="col-lg-3 col-sm-6">
+            			<div>
+            				<img src="./Image/friend18.jpg" width="90%">
+            				<p>Friend Number 18</p>
+            			</div>
             		</div>
-            		<div>
-            			<img src="./Image/friend19.jpg" width="90%">
-            			<p>Friend Number 19</p>
+            		<div class="col-lg-3 col-sm-6">
+            			<div>
+            				<img src="./Image/friend19.jpg" width="90%">
+            				<p>Friend Number 19</p>
+            			</div>
             		</div>
-            		<div>
-            			<img src="./Image/friend20.jpg" width="90%">
-            			<p>Friend Number 20</p>
+            		<div class="col-lg-3 col-sm-6">
+            			<div>
+            				<img src="./Image/friend20.jpg" width="90%">
+            				<p>Friend Number 20</p>
+            			</div>
             		</div>
             	</div>
             </div>
