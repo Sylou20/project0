@@ -1,7 +1,22 @@
 .header {
         #banner {
-                img {
-                        border-radius: 10px;
+                text-align: center;
+                background-image: url('./Image/cover.jpg');
+                background-size: cover;
+                background-position: center;
+                padding: 150px 0;
+                color: white;
+                background-repeat: no-repeat;
+                background-attachment: fixed;
+                -o-background-size: cover;
+                -moz-background-size: cover;
+                -webkit-background-size: cover;
+                
+                div {
+                        img {
+                                border-radius: 10px;
+                                width: 10%;
+                        }
                 }
         }
 }
@@ -52,20 +67,6 @@
                         }
                 }
         }
-}
-
-#banner{
-        text-align: center;
-        background-image: url('https://cdn.pixabay.com/photo/2016/10/30/05/49/animals-1782436_960_720.jpg');
-        background-size: cover;
-        background-position: center;
-        padding: 150px 0;
-        color: white;
-        background-repeat: no-repeat;
-        background-attachment: fixed;
-        -o-background-size: cover;
-        -moz-background-size: cover;
-        -webkit-background-size: cover;
 }
 
 form {
