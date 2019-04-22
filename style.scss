@@ -95,3 +95,17 @@ form {
         margin: 10px;
 }
 
+#footer{
+  padding: 30px;
+  background-color: black;
+  color: lightgrey;
+
+        a {
+          color: lightgrey;
+          font-size: 32px;
+        }
+         a:hover {
+          color: white;
+        } 
+}
+
