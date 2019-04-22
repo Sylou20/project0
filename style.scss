@@ -61,6 +61,11 @@
         background-position: center;
         padding: 150px 0;
         color: white;
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        -o-background-size: cover;
+        -moz-background-size: cover;
+        -webkit-background-size: cover;
 }
 
 form {
