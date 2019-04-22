@@ -1,3 +1,47 @@
+.header #banner img {
+  border-radius: 10px; }
 
+.row {
+  background-color: grey;
+  padding-left: 30px;
+  padding-right: 30px;
+  padding-top: 30px;
+  border-radius: 5px; }
+  .row .col-lg-3, .row .col-md-4, .row .col-sm-6 {
+    font-size: 20px;
+    text-align: center; }
+    .row .col-lg-3 div, .row .col-md-4 div, .row .col-sm-6 div {
+      background-color: white;
+      padding-top: 20px;
+      border-radius: 10px; }
+      .row .col-lg-3 div img, .row .col-md-4 div img, .row .col-sm-6 div img {
+        border-radius: 5px; }
+
+.card-body a {
+  margin: 10px; }
+.card-body .card-title {
+  padding: 5px;
+  margin-top: 20px;
+  margin-bottom: 15px; }
+.card-body .card-text p {
+  list-style: none;
+  text-align: center;
+  padding: 5px; }
+  .card-body .card-text p b {
+    font-size: 22px; }
+
+#banner {
+  text-align: center;
+  background-image: url("https://cdn.pixabay.com/photo/2016/10/30/05/49/animals-1782436_960_720.jpg");
+  background-size: cover;
+  background-position: center;
+  padding: 150px 0;
+  color: white; }
+
+form {
+  margin: 5px; }
+
+.remplir {
+  margin: 10px; }
 
 /*# sourceMappingURL=style.css.map */
