@@ -1,3 +1,16 @@
+$border-large: 10px;
+$border-small: 5px; 
+
+%comments {
+    font-size: 18px;
+    color: black;
+    background-color: #dce0d9;
+    padding: 5px;
+    border-radius: $border-small;
+    padding-left: 2%;
+
+}
+
 .header {
         #banner {
                 background-image: url('./Image/cover.jpg');
@@ -44,7 +57,7 @@
         padding-left: 30px;
         padding-right: 30px;
         padding-top: 30px;
-        border-radius: 5px;
+        border-radius: $border-small;
 
         .col-lg-3, .col-md-4, .col-sm-6 {
                 font-size: 20px;
@@ -53,10 +66,11 @@
                 div {
                         background-color: white;
                         padding-top: 20px;
-                        border-radius: 10px;
+                        border-radius: $border-large;
+                        box-shadow: 0 6px 6px rgba(50,50,93,.11);
 
                         img {
-                                border-radius: 5px;
+                                border-radius: $border-small;
                         }
                 }
 
@@ -64,14 +78,14 @@
 }
 
 .card-body{
+
         a {
                 margin: 10px;
         }
 
-        div {
-                h3 {
-                        text-align: left;
-                }
+        h3 {
+                text-align: left;
+                padding: 20px;
         }
 
         .card-title{
@@ -90,6 +104,27 @@
                                 font-size: 22px;
                         }
                 }
+        }
+
+        .zone-comments {
+            background-color: white; 
+            
+            .one-comment {
+                text-align: left;
+                 
+                p{
+                    @extend %comments;
+                }
+            }
+        }
+
+        table {
+            margin: 80px auto;
+
+            td, th {
+                padding-right: 15px;
+                padding-left: 15px;
+            }
         }
 }
 
